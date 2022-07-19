@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario UX/UI</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            background-color: indigo;
+        }
+        form{
+            width: 70%;
+            margin: 0;
+            left: 50%;
+            top: 50%;
+            display: inline-block;
+            transform: translate(-50%,-50%);
+            position: absolute;
+        }
+        input{
+            padding: 2%;
+            margin-top: 35px;
+            width: 100%;
+            height: 43px;
+            border: 5px solid white;
+            background-color: white;
+        }
+        textarea{
+            resize: vertical;
+            width: 100%;
+            height: 180px;
+            margin-top: 35px;
+            border: 5px solid white;
+            background-color: white;
+        }
+        button{
+            width: 200px;
+            float: left;
+            height: 45px;
+            color: white;
+            background-color: rgb(241, 50, 241);
+            border: 0;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Nome...">
+        <input type="email" placeholder="E-mail...">
+        <textarea name="" placeholder="Sua Mensagem..."></textarea>
+        <button>Enviar!</button>
+    </form>
+</body>
+</html>
