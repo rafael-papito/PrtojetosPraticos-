@@ -1,0 +1,476 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.container{
+    padding: 0 2%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+section.home{
+    width: 100%;
+    padding: 30px 0 100px 0;
+    min-height: 700px;
+    background-image: url(./midia/bg_01.png);
+    background-size: cover;
+}
+header{
+    border-bottom: 3px solid rgba(71, 83, 88,0.14);
+    padding-bottom: 20px;
+}
+.logo{
+    width: 166px;
+    height: 64px;
+    background-image: url(./midia/logo.png);
+    background-size: cover;
+}
+.not{
+    float: left;
+}
+nav.not{
+    margin-top: -35px;
+    float: left;
+    padding-left: 260px;
+}
+nav.not ul{
+    list-style-type: none;
+}
+nav.not li{
+    display: inline-block;
+    padding: 0 15px;
+}
+nav.not a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav.mobile{
+	cursor: pointer;
+	display: none;
+	float: right;
+	margin-right: 25px;
+	margin-top: -50px;
+	width: 29px;
+	height: 29px;
+	background-image:url('./midia/menu-mobile.png');
+	background-size: 100% 100%;
+	z-index: 1;
+}
+nav.mobile ul{
+	display: none;
+	background-color:#6CC5B2;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	list-style-type: none;
+	text-align: center;
+	z-index: 1;
+}
+nav.mobile ul li{
+	padding:8px 0;
+	transition: 0.4s;
+	
+}
+nav.mobile ul li:hover{
+	background-color: rgb(230,230,230);
+}
+nav.mobile ul li a{
+	color: white;
+	text-decoration: none;
+}
+.phone{
+    float: right;
+    font-size: 20px;
+    color: white;
+    margin-top: -37px;
+}
+.homeLeft{
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+.homeLeft h2{
+    color: #509d87;
+    font-size: 37px;
+    text-align: left;
+}
+.homeLeft p{
+    padding: 20px;
+    text-align: left;
+}
+.homeLeft input[type=text]{
+    width: 250px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.homeLeft input[type=text]:focus{
+    outline: 0;
+}
+.homeLeft button{
+    width: 170px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #00daaa ;
+    padding: 0 30px ;
+}
+.homeRight{
+    width: 50%;
+    float: right;
+    padding: 0 30px;
+    margin-top: 50px;
+}
+.homeRight img{
+    float: left;
+    width: 50%;
+    border: 15px solid rgba(0,0,0,0);
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxSingle{
+    width: 33.3%;
+    padding: 20px ;
+    margin: 20px 0;
+}
+.boxSingle h2{
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+b{
+    color: #7dd5b0;
+}
+.boxSingle p{
+    color: black;
+    font-size: 17px;
+}
+.center{
+    max-width: 1240px;
+    padding: 20px;
+    margin: auto;
+}
+.prt1{
+    width: 50%;
+    float: left;
+    margin-bottom: -25px;
+}
+.prt1 img{
+    width: 100%;
+    position: relative;
+}
+.prt2{
+    width: 50%;
+    float: right;
+    margin-top: -30px;
+}
+.prt2 h2{
+    font-size: 32px;
+    color: #a9c4b8;
+    margin: 10px 0;
+}
+section.comentario{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    color: #2d2d2d;
+    text-align: center;
+    background-image: url('./midia/bg_02.png');
+    background-size: cover;
+    position: relative;
+    top: -90px;
+}
+.comentario h3{
+    font-size: 29px;
+    font-weight: normal;
+}
+section.diferenciais{
+    width: 100%;
+}
+section.diferenciais > .container{
+    width: 100%;
+    max-width: 1200px;
+}
+.diferenciais h2{
+    text-align: center;
+    color: #3b3e42;
+}
+.single_img{
+    float: left;
+    width: 50%;
+}
+.etapas_img{
+    padding: 30px;
+}
+.etapas_img p{
+    width: 50%;
+    float: left;
+    padding-top: 90px;
+    padding-left: 30px;
+    color: #509d87;
+}
+.etapas_img img{
+    width: 50%;
+    margin-top: -30px;
+    float: left;
+}
+.single_text{
+    float: right;
+    width: 50%;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 40px;
+}
+.circle span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.line{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    z-index: 99999;
+    height: 40px;
+    width: 1px;
+    background-color: black;
+}
+.description{
+    float: right;
+    width: calc(100% - 100px);
+    padding: 0 20px;
+    margin-top: -70px;
+}
+.description h3{
+    color: #03ca9f;
+    font-size: 18px;
+}
+section.vs{
+    width: 100%;
+    margin:60px auto;
+}
+.comun{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.comun h3{
+    text-align: center;
+    font-size: 32px;
+    color: #a9c4b8;
+}
+.item_comun{
+    display: inline-block;
+    position: relative;
+    margin-top: 18px;
+}
+.item_comun span{
+    font-size: 21px;
+    font-weight: bold;
+    color: #a9c4b8;
+    padding: 10px;
+}
+.list_comun{
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 100%;
+    height: 3px;
+    background: #e89595;
+    transform: rotate(-5deg);
+    z-index: 999;
+}
+.nosso{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.nosso_single{
+    margin-top: 10px;
+}
+.nosso_single span{
+    color: #7dd5b0;
+    font-weight: bold;
+    font-size: 21px;
+}
+section.contato{
+    background-color: #98FCDE;
+    padding: 40px 0;
+}
+.contato h3{
+    font-size: 24px;
+    color: #509d87;
+    text-align: center;
+}
+.contato p{
+    text-align: center;
+    font-size: 14px;
+    color: #509d87;
+    display: block;
+    border-bottom: 1px solid #509d87;
+    padding: 10px 0;
+}
+form input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #509d87;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+form input[type=text]:focus{
+    outline: 0;
+}
+form input[type=email]:focus{
+    outline: 0;
+}
+form input[type=email]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #509d87;
+    border-radius: 20px;
+}
+textarea:focus{
+    outline: 0;
+}
+form textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #509d87;
+    padding: 8px;
+    resize: none;
+}
+form input[type=button]{
+    width: 170px;
+    height: 60px;
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0ed2a7;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #6CC5B2;
+    padding: 20px 0;
+}
+@media screen and (max-width:1140px){
+    .prt1{
+        margin-bottom: 0;
+    }
+    .prt2{
+        margin-top: 0px;
+    }
+    section.comentario{
+        top: -40px;
+    }
+}
+@media screen and (max-width:994px){
+    .etapas_img p{
+        width: 50%;
+        float: left;
+        padding-top: 40px;
+        padding-left: 10px;
+
+    }
+}
+@media screen and (max-width:904px){
+    nav.not{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+    .phone{
+        display: none;
+    }
+    .homeLeft{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .homeLeft h2{
+        text-align: center;
+    }
+    .homeLeft p{
+        text-align: center;
+    }
+    .homeRight{
+        display: none;
+    }
+    .center{
+        text-align: center;
+    }
+    .prt1{
+        width: 100%;
+        float: none;
+    }
+    .prt2{
+        width: 100%;
+        float: none;
+    }
+    .single_img{
+        display: none;
+     }
+     .single_text{
+         width: 100%;
+         float: none;
+     }
+}
+@media screen and (max-width:724px){
+    .box{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .boxSingle{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .comun{
+        width: 100%;
+        float: none;
+        border: 0;
+        margin-bottom: 22px;
+    }
+    .nosso{
+        width: 100%;
+        float: none;
+    }
+}
+@media screen and (max-width:318px){
+    .circle{
+        display: none;
+    }
+    .description{
+        float: none;
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 16px;
+    }
+}
