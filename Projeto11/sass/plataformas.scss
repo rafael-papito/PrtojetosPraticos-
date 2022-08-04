@@ -1,0 +1,49 @@
+section.plataformas{
+    background-color: #29d124;
+    margin-top: 50px;
+    padding: 30px;
+    .w80{
+        width: 80%;
+        float: left;
+    }
+    h1{
+        font-size: 40px;
+        color: white;
+    }
+    .risca2{
+        height: 4px;
+        background-color: white;
+        width: 54%;
+        margin-top: 10px;
+    }
+    p{
+        color: white;
+        font-size: 24px;
+        line-height: 40px;
+        width: 70%;
+        margin-top: 20px;
+    }
+    img{
+        margin: 13px;
+    }
+    .imgcircle1, .imgcircle2, .imgcircle3{
+        width: 80px;
+        height: 80px;
+        background-color: #ccc;
+        border-radius: 50%;
+        float: left;
+        margin: 13px;
+    }
+    .w20{
+        width: 20%;
+        float: left;
+        .logofooter{
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+            float: right;
+            margin-top: 50px;
+        }
+    }
+    
+}

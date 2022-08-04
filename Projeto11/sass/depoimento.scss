@@ -1,0 +1,22 @@
+section.depoimento{
+    width: 100%;
+    .boxDepoiment{
+        width: 40%;
+        float: left;
+        margin: 50px 30px;
+        height: auto;
+        background-color: #fafafa;
+        .depoiment{
+            p{
+                font-size: 20px;
+                padding: 20px;
+            }
+            span p{
+                margin-top: -20px;
+                font-size: 15px;
+                color: #29d124;
+            }
+        }
+    }
+    
+}

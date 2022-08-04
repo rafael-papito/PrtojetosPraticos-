@@ -1,0 +1,94 @@
+header{
+    width: 100%;
+    height: auto;
+    nav{
+        padding-top: 10px;
+        .logo{
+            background-image: url('../midia/logo.png');
+            width: 180px;
+            height: 58px; 
+            float: left;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .not{
+            float: right;
+            ul{
+                padding: 20px 0;
+                li{
+                    display: inline-block;
+                    margin-left: 10px;
+                    margin-right: 15px;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 20px;
+                    }
+                }
+                button{
+                    width: 270px;
+                    height: 60px;
+                    font-size: 20px;
+                    color: #fff;
+                    background-color: #29d124;
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .home{
+        display: inline-block;
+        width: 100%;
+        .text{
+            float: left;
+            width: 50%;
+            margin-top: 50px;
+            h1{
+                font-size: 40px;
+                padding: 10px;
+            }
+            p{
+                font-size: 22px;
+                padding: 10px 0;
+            }
+            .lojas{
+                margin-top: 20px;
+                width: 400px;
+                height: 50px;
+                .loja1{
+                    background-image: url('../midia/appstore/appstore.png');
+                    width: 150px;
+                    height: 45px;
+                    float: left;
+                    margin: 0 22px;
+                }
+                .loja2{
+                    background-image: url('../midia/googleplay/googleplay.png');
+                    width: 150px;
+                    height: 45px;
+                    float: left;
+                    margin: 0 22px;
+                }
+            }
+        }
+        .hero{
+            float: right;
+            width: 44%;
+            height: 440px;
+            background-image: url('../midia/hero.jpg');
+            margin-top: 30px;
+        }
+    }
+    .heroresponsivo{
+        display: none;
+        width: 100%;
+        height: 200px;
+        background-image: url('../midia/hero.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 200%;
+        margin-top: 25px;
+    }
+}

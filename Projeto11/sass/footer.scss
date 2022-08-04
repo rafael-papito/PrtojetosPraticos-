@@ -1,0 +1,23 @@
+footer{
+    padding: 40px;
+    img{
+        float: left;
+    }
+    .redes{
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        height: 30px;
+        .rede1, .rede2, .rede3{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #ccc;
+            float: left;
+            margin: 0 15px;
+        }
+    }
+    p{
+        float: right;
+    }
+}

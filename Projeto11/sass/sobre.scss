@@ -1,0 +1,57 @@
+section.sobre{
+    width: 100%;
+    h1{
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .risca{
+    height: 4px;
+    background-color: #29d124;
+    width: 8%;
+    }
+    .boxSobre{
+        width: 33.3%;
+        height: 250px;
+        margin: 20px 0;
+        border: 10px solid #fff;
+        float: left;
+        .emogi{
+            height: 30%;
+            width: 30%;
+            background-color: #29d124;
+            text-align: center;
+            float: left;
+            p{
+                padding-top: 10px;
+                font-size: 50px;
+                color: white;
+               /* margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%)*/
+            }
+        }
+        .title{
+            width: 70%;
+            height: 30%;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 10px;
+            background-color:#fcfaf0 ;
+            float: right;
+        }
+        .description{
+            display: inline-block;
+            background-color: #fafafa;
+            width: 100%;
+            height: 60%;
+            p{
+                font: 18px;
+                margin-top: 20px;
+                padding: 20px ;
+            }
+        }
+    }
+}

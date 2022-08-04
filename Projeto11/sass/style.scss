@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 0 2%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+@import"home.scss";
+@import"depoimento.scss";
+@import"sobre.scss";
+@import"imgs.scss";
+@import"plataformas.scss";
+@import"footer.scss";
+@import"responsivo.scss";
