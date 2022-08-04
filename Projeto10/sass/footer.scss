@@ -1,0 +1,29 @@
+footer{
+    .w100{
+        width: 100%;
+        .w5001{
+            background-color:rgba(140, 140, 140, 0.3);
+        }
+        .w5002{
+            background-color: rgba(28, 39, 255, 0.4);
+        }
+        .w5001, .w5002{
+            width: 50%;
+            float: left;
+            height: 37vh;
+            border: 1px solid ;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center; 
+            p{
+               font-size: 22px; 
+               margin-top: 115px;
+               a{
+                   color: grey;
+               }
+            }
+            
+        }
+       
+    }
+}

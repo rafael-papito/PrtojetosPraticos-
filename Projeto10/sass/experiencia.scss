@@ -1,0 +1,61 @@
+section.experiencia{
+    .escritaEx{
+        width: 60%;
+        margin: 55px auto;
+        text-align: center;
+        line-height: 25px;
+    }
+    .division{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .textEx{
+            width: 50%;
+            float: left;
+           h3{
+               margin-top: 15px;
+               line-height: 29px;
+               font-size: 22px;
+           }
+           p{
+               margin-top: 26px;
+               line-height: 25px;
+           }
+        }
+        .imgEx{
+            width: 50%;
+            float: right;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .coment{
+        width: 100%;
+        .imgComent{
+            width: 100%;
+            height: 40vh;
+            background-image: url('../midia/bg2.jpg');
+            background-size: 100% 100%;
+        }
+        .comentery{
+            width: 400px;
+            height: 140px;
+            float: right;
+            margin-right: 10%;
+            margin-top: -12%;
+            background-color: white;
+            color: rgb(107, 104, 104);
+            p{
+                margin-left: 30px;
+                margin-right: 30px;
+                margin-top: 30px;
+                margin-bottom: 18px;
+            }
+            span{
+                margin-left: 35px;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 0 2%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+@import"variaveis.scss";
+@import"header.scss";
+@import"experiencia.scss";
+@import"produtos.scss";
+@import"mobile.scss";
+@import"empresas.scss";
+@import"formulario.scss";
+@import"footer.scss";
+@import"responsivo.scss";

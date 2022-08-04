@@ -1,0 +1,140 @@
+@media screen and (max-width:877px){
+   header{
+        nav.not{
+            display: none;
+            
+        }
+        nav.mobile{
+            display: inline-block;
+        }
+        .chamada{
+            width: 100%;
+            margin:80px auto;
+            text-align: center;
+            form{
+                width: 70%;
+                text-align: center;
+                margin: auto;
+                input{
+                    width: 40%;
+                }
+                button{
+                    width: 30%;
+                }
+            }
+        }
+   }
+   section.experiencia{
+        .division{
+            .textEx{
+                float: none;
+                margin: auto;
+                 width: 80%;
+            }
+            .imgEx{
+                margin: auto;
+                float: none;
+                width: 70%;
+            }
+        }
+    }
+    section.produtos{
+        .col01, .col02{
+            .box{
+                width: 50%;
+                padding: 10px 40px;
+            }
+        }
+    }
+    section.empresas{
+        display: none;
+    }
+}
+@media screen and (max-width:680px){
+    section.produtos{
+        .col01, .col02{
+            .box{
+                padding: 10px 0;
+            }
+        }
+    }
+}        
+@media screen and (max-width:600px){
+    header{
+        .chamada{
+            form{
+                width: 50%;
+                input{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                button{
+                    width: 100%;
+                    margin-left: -3px;
+                }
+            }
+        }
+    }
+    section.experiencia{
+        .division{
+             .textEx{
+                 font-size: 18px;
+                 width: 95%;
+             }
+        }
+    }
+}
+@media screen and (max-width:550px){
+    section.experiencia{
+        .coment{
+            .comentery{
+                width: 100%;
+                height: auto;
+                float: none;
+                text-align: center;
+                margin: -100px 60px 0 0;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.7);
+                border: 1px solid black;
+                p{
+                   margin: 20px auto;
+                }
+            }
+        }
+    }
+    section.produtos{
+        .col01, .col02{
+            .box{
+                width: 100%;
+                padding: 10px 70px;
+            }
+        }
+    }
+} 
+@media screen and (max-width:400px){
+    header{
+        .chamada{
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    section.experiencia{
+        .division{
+             .textEx{
+                 text-align: center;
+             }
+        }
+    }
+    section.produtos{
+        .col01, .col02{
+            .box{
+                width: 100%;
+                padding: 10px 0;
+            }
+        }
+    }
+}

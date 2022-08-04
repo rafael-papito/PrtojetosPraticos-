@@ -1,0 +1,49 @@
+nav.mobile{
+    cursor: pointer;
+    display: none;
+	float: right;
+	margin-right: 25px;
+	margin-top: 20px;
+	width: 32px;
+	height: 32px;
+    background-image: url('../midia/menu-mobile.png');
+    background-size: 100% 100%;
+	z-index: 1;
+    ul{
+        display: none;
+        background-color:#ccc;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 55px;
+        list-style-type: none;
+        text-align: center;
+        z-index: 1;
+        li{
+            padding:8px 0;
+	        transition: 0.4s;
+	        border-bottom: 1px solid black;
+            
+            &:hover{
+                background-color: rgb(58, 54, 54);
+            }
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+    button{
+        width: 180px;
+        height: 40px;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 0;
+        color: black;
+        font-size: 15px;
+        color: white;
+        background-color: $colorbtn;
+        margin:5px 0;
+    }
+}
